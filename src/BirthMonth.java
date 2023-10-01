@@ -6,7 +6,7 @@ public class BirthMonth {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("What month were you born? (Enter a number 1-12)");
-        if (scan.hasNextInt() && birthMonth <= 12)
+        if (scan.hasNextInt())
         birthMonth = scan.nextInt();
         if (birthMonth == 1)
         {
